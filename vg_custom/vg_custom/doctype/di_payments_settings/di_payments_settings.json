@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-04 23:50:41.108909",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "accountant",
+  "head_office",
+  "payments"
+ ],
+ "fields": [
+  {
+   "fieldname": "accountant",
+   "fieldtype": "Link",
+   "label": "Accountant",
+   "options": "User"
+  },
+  {
+   "fieldname": "head_office",
+   "fieldtype": "Link",
+   "label": "Head Office",
+   "options": "User"
+  },
+  {
+   "fieldname": "payments",
+   "fieldtype": "Link",
+   "label": "Payments",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-04 23:50:41.108909",
+ "modified_by": "Administrator",
+ "module": "Vg Custom",
+ "name": "Di Payments settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
