@@ -1,5 +1,5 @@
 import frappe
-from frappe.utils import now, date_diff, time_diff_in_hours
+from frappe.utils import now, date_diff
 from datetime import datetime
  
 # path - vg_custom.override.di_payment.di_payment_request_form 
